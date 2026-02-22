@@ -33,3 +33,5 @@ https
     console.log("Error: " + err.message);
   });
 console.log("httpRequest");
+const myModule = require('./my-module.js');
+console.log(myModule.myFunction());
